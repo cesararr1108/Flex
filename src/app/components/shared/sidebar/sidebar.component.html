@@ -1,0 +1,396 @@
+<!-- ======= Sidebar ======= -->
+<aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item" id="menu_modulos">
+        <a class="nav-link collapsed" data-bs-target="#maestra-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-database"></i><span>Maestra</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="maestra-nav" class="nav-content collapse show" data-bs-parent="#sidebar-nav">
+        <!--  TERCEROS -->  
+		<li>
+            <a  href="<?=site_url('tiposDocumentos').'?id=tiposdocumentos'; ?>" id="tiposdocumentos" >
+              <i class="bi bi-circle"></i><span>Tipos de documentos</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('tiposTerceros').'?id=tiposterceros'; ?>" id="tiposterceros">
+              <i class="bi bi-circle"></i><span>Tipos de terceros</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('tiposIdentificaciones').'?id=tiposidentificaciones'; ?>" id="tiposidentificaciones">
+              <i class="bi bi-circle"></i><span>Tipos de identificaciones</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('condicionesPago').'?id=condicionespago'; ?>" id="condicionespago">
+              <i class="bi bi-circle"></i><span>Condiciones de pago</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('ConceptosDocumentos').'?id=conceptosdocumentos'; ?>" id="conceptosdocumentos">
+              <i class="bi bi-circle"></i><span>Conceptos en documentos</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('Materiales').'?id=materiales'; ?>" id="materiales">
+              <i class="bi bi-circle"></i><span>Materiales</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('Terceros').'?id=terceros'; ?>" id="terceros">
+              <i class="bi bi-circle"></i><span>Terceros</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('TercerosDirecciones').'?id=tercerosdirecciones'; ?>" id="tercerosdirecciones">
+              <i class="bi bi-circle"></i><span>Terceros direcciones</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('TercerosZonas').'?id=terceroszonas'; ?>" id="terceroszonas">
+              <i class="bi bi-circle"></i><span>Terceros zonas</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('TercerosContactos').'?id=terceroscontactos'; ?>" id="terceroscontactos">
+              <i class="bi bi-circle"></i><span>Terceros contactos</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('Almacenes').'?id=almacenes'; ?>" id="almacenes">
+              <i class="bi bi-circle"></i><span>Almacenes</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('Regimenes').'?id=regimenes'; ?>" id="regimenes">
+              <i class="bi bi-circle"></i><span>Regimenes</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('Ivas').'?id=ivas'; ?>" id="ivas">
+              <i class="bi bi-circle"></i><span>Ivas</span>
+            </a>
+          </li>	
+          <li>
+            <a href="<?=site_url('bancos').'?id=bancos'; ?>" id="bancos">
+              <i class="bi bi-circle "></i><span>Bancos</span>
+            </a>
+          </li>	
+          <li>
+            <a href="<?=site_url('MediosPagos').'?id=mediospagos'; ?>" id="mediospagos">
+              <i class="bi bi-circle"></i><span>Medios de pagos</span>
+            </a>
+          </li>	
+          <li>
+            <a href="<?=site_url('DatosFiscales').'?id=datosfiscales'; ?>" id="datosfiscales">
+              <i class="bi bi-circle"></i><span>Datos fiscales</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('ZonasVentas').'?id=zonasventas'; ?>" id="zonasventas">
+              <i class="bi bi-circle"></i><span>Zonas de ventas</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Components Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#compras-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-calendar-check"></i><span>Compras</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="compras-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="<?=site_url('SugeridoCompras').'?id=sugeridocompras'; ?>" id="sugeridocompras">
+              <i class="bi bi-circle"></i><span>Sugerido de compras</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('OrdenesCompras').'?id=ordenescompras'; ?>" id="ordenescompras">
+              <i class="bi bi-circle"></i><span>Ordenes de compras</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="<?=site_url('AjustesCostos').'?id=ajustescostos'; ?>" id="ajustescostos">
+              <i class="bi bi-circle"></i><span>Ajustes de costos</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Components Nav -->
+		
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#logistica-nav" data-bs-toggle="collapse" href="#">
+          <i class="bx bx-box"></i><span>Logística e inventario</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="logistica-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="<?=site_url('TomaInventarios').'?id=tomainventarios'; ?>" id="tomainventarios">
+              <i class="bi bi-circle"></i><span>Toma de inventarios</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('IngresoMercancia').'?id=ingresomercancia'; ?>" id="ingresomercancia">
+              <i class="bi bi-circle"></i><span>Ingreso de mercancia</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('DevolucionCompras').'?id=devolucioncompras'; ?>" id="devolucioncompras">
+              <i class="bi bi-circle"></i><span>Devolucion en compras</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('EntradasInventario').'?id=entradasinventario'; ?>" id="entradasinventario">
+              <i class="bi bi-circle"></i><span>Entradas de inventario</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('SalidasInventario').'?id=entradasinventario'; ?>" id="entradasinventario">
+              <i class="bi bi-circle"></i><span>Salidas de inventario</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('TrasladosEntreBodegas').'?id=trasladosentrebodegas'; ?>" id="trasladosentrebodegas">
+              <i class="bi bi-circle"></i><span>Traslados entre bodegas</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('Piking').'?id=piking'; ?>" id="piking">
+              <i class="bi bi-circle"></i><span>Piking</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('Facturacion').'?id=facturacion'; ?>" id="facturacion">
+              <i class="bi bi-circle"></i><span>Facturación</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('Empaque').'?id=empaque'; ?>" id="empaque">
+              <i class="bi bi-circle"></i><span>Empaque</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('Despachos').'?id=despachos'; ?>" id="despachos">
+              <i class="bi bi-circle"></i><span>Despachos</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Components Nav -->		
+		
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#comercial-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-cart"></i><span>Comercial</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="comercial-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="<?=site_url('Pos').'?id=pos'; ?>" id="pos">
+              <i class="bi bi-circle"></i><span>POS</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('DevolucionVentas').'?id=devolucionventas'; ?>" id="devolucionventas">
+              <i class="bi bi-circle"></i><span>Devolucion en ventas</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('AperturaCajas').'?id=aperturacajas'; ?>" id="aperturacajas">
+              <i class="bi bi-circle"></i><span>Apertura de cajas</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('CierreCajas').'?id=cierrecajas'; ?>" id="cierrecajas">
+              <i class="bi bi-circle"></i><span>Cierre de cajas</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('ArqueoCajas').'?id=arqueocajas'; ?>" id="arqueocajas">
+              <i class="bi bi-circle"></i><span>Arqueo de cajas</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Components Nav -->
+		
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#mercadeo-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-megaphone"></i><span>Mercadeo</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="mercadeo-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="<?=site_url('PromocionesOfertas').'?id=promocionesofertas'; ?>" id="promocionesofertas">
+              <i class="bi bi-circle"></i><span>Promociones/Ofertas</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('Descuentos').'?id=descuentos'; ?>" id="descuentos">
+              <i class="bi bi-circle"></i><span>Descuentos</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Components Nav -->
+		
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#cartera-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-credit-card"></i><span>Cartera</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="cartera-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="<?=site_url('NotaDebito').'?id=notadebito'; ?>" id="notadebito">
+              <i class="bi bi-circle"></i><span>Nota debito</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('NotaCredito').'?id=notacredito'; ?>" id="notacredito">
+              <i class="bi bi-circle"></i><span>Nota crédito</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('CausacionesGastos').'?id=causacionesgastos'; ?>" id="causacionesgastos">
+              <i class="bi bi-circle"></i><span>Causaciones de gastos</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Components Nav -->
+		
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#tesoreria-nav" data-bs-toggle="collapse" href="#">
+          <i class="bx bx-money"></i><span>Tesoreria</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="tesoreria-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="<?=site_url('RecibosCajas').'?id=reciboscajas'; ?>" id="reciboscajas">
+              <i class="bi bi-circle"></i><span>recibos de cajas</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('Egresos').'?id=egresos'; ?>" id="egresos">
+              <i class="bi bi-circle"></i><span>Egresos</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Components Nav -->		
+		
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#documentos-nav" data-bs-toggle="collapse" href="#">
+          <i class="bx bx-file"></i><span>Documentos</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="documentos-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="<?=site_url('ConsultaDocumentos').'?id=consultadocumentos'; ?>" id="consultadocumentos">
+              <i class="bi bi-circle"></i><span>Conulta documentos</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('ModificacionEncabezados').'?id=modificacionencabezados'; ?>" id="modificacionencabezados">
+              <i class="bi bi-circle"></i><span>Modificación de encabecados</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Components Nav -->
+		
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#reportes-nav" data-bs-toggle="collapse" href="#">
+          <i class="bx bxs-pie-chart-alt"></i><span>Reportes</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="reportes-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="<?=site_url('Alertas').'?id=alertas'; ?>" id="alertas">
+              <i class="bi bi-circle"></i><span>Alertas</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Components Nav -->
+		
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#contabilidad-nav" data-bs-toggle="collapse" href="#">
+          <i class="bx bx-calculator"></i><span>Contabilidad</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="contabilidad-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="<?=site_url('Cuentas').'?id=cuentas'; ?>" id="cuentas">
+              <i class="bi bi-circle"></i><span>Cuentas</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('PlanCuentas').'?id=plancuentas'; ?>" id="plancuentas">
+              <i class="bi bi-circle"></i><span>Plan de cuentas</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('ModelosContables').'?id=modeloscontables'; ?>" id="modeloscontables">
+              <i class="bi bi-circle"></i><span>Modelos contables</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('PerfilesContables').'?id=perfilescontables'; ?>" id="perfilescontables">
+              <i class="bi bi-circle"></i><span>Perfiles contables</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('AnulacionDocumentos').'?id=anulaciondocumentos'; ?>" id="anulaciondocumentos">
+              <i class="bi bi-circle"></i><span>Anulación de documentos</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Components Nav -->	
+		
+		
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#dian-nav" data-bs-toggle="collapse" href="#">
+          <i class="bx bx-cabinet"></i><span>DIAN</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="dian-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="<?=site_url('EmisionFacturasElectronicas').'?id=emisionfacturaselectronicas'; ?>" id="emisionfacturaselectronicas">
+              <i class="bi bi-circle"></i><span>Emision de facturas electronicas</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Components Nav -->
+		
+		
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#sistema-nav" data-bs-toggle="collapse" href="#">
+          <i class="bx bx-desktop"></i><span>SISTEMA</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="sistema-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="<?=site_url('Perfiles').'?id=perfiles'; ?>" id="perfiles">
+              <i class="bi bi-circle"></i><span>Perfiles</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('Permisos').'?id=permisos'; ?>" id="permisos">
+              <i class="bi bi-circle"></i><span>Permisos</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('AsignarPerfil').'?id=asignarperfil'; ?>" id="asignarperfil">
+              <i class="bi bi-circle"></i><span>Asignar perfil</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('Usuarios').'?id=usuarios'; ?>" id="usuarios">
+              <i class="bi bi-circle"></i><span>Usuarios</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('Modulos').'?id=modulos'; ?>" id="modulos">
+              <i class="bi bi-circle"></i><span>Modulos</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?=site_url('ModuloPermisos').'?id=modulopermisos'; ?>" id="modulopermisos">
+              <i class="bi bi-circle"></i><span>Modulos/Permisos</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Components Nav -->	
+		
+      <!--<li class="nav-heading">Pages</li>-->
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
