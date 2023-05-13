@@ -8,7 +8,6 @@ export class CargaScriptsService {
   constructor() { }
 
   carga(archivos:string[]){
-
      for(let archivo of archivos){
       console.log(archivo)
         let script = document.createElement("script");
